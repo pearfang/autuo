@@ -1,0 +1,324 @@
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+address {
+	margin: 0;
+	padding: 0
+}
+
+fieldset,
+img {
+	border: 0
+}
+
+img {
+	display: inline-block
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+	font-style: normal;
+	font-weight: normal
+}
+
+ul,
+ol,
+li {
+	list-style: none
+}
+
+input {
+	padding-top: 0;
+	padding-bottom: 0;
+	font-family: "SimSun", "宋体"
+}
+
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0
+}
+
+select,
+input {
+	vertical-align: middle
+}
+
+select,
+input,
+textarea {
+	font-size: 12px;
+	margin: 0
+}
+
+table {
+	border-collapse: collapse
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both
+}
+
+.clearfix {
+	zoom: 1
+}
+
+li a {
+	color: #fff;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: #ff8400;
+	text-decoration: underline
+}
+
+.hidden {
+	visibility: hidden
+}
+
+.mar20 {
+	margin-top: 20px;
+}
+
+.animate-header {
+	transition: all 0.8s ease 0s;
+	background-color: rgba(0, 0, 0, .7);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+	color: #fff;
+	padding: 20px 0px;
+	position: fixed;
+	top: 0;left: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+}
+
+.animate-header a {
+	color: #fff;
+}
+
+.navbar-nav li {
+	padding-left: 15px;
+}
+
+.sec-title {
+	margin-bottom: 40px;
+}
+
+.sec-title h2 {
+	margin-bottom: 40px;
+	position: relative;
+}
+
+.sec-title h2:after {
+	content: '';
+	position: absolute;
+	border-bottom: 1px solid #009ee3;
+	display: block;
+	width: 120px;
+	left: 50%;
+	margin-left: -60px;
+	top: 50px;
+}
+
+.sec-title p {
+	color: #818181;
+}
+
+.service-icon {
+	border: 3px solid transparent;
+	display: inline-block;
+	/*height: 85px;
+			    width: 85px;
+			    line-height: 101px;*/
+	-webkit-transform: rotate(47deg);
+	-moz-transform: rotate(47deg);
+	-ms-transform: rotate(47deg);
+	-o-transform: rotate(47deg);
+	transform: rotate(47deg);
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.site-content i.ion-font {
+	font-size: 36px;
+}
+
+.pos {
+	position: relative;
+}
+
+.portfolio .mark {
+	background-color: rgba(54, 55, 50, 0.79);
+	bottom: 0px;
+	color: #fff;
+	/*padding: 25px;*/
+	position: absolute;
+	width: 100%;
+	text-align: left;
+	-webkit-transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-ms-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	
+}
+figcaption {
+	/*opacity: 0;*/
+}
+.portfolio-content {
+	width: 100%;
+}
+
+.portfolio-content .portfolio-item {
+	display: inline-block;
+	width: 32%;
+	position: relative;
+	margin: 0 1% 1% 0;
+}
+
+/*.portfolio-item:hover .mark {
+	visibility: visible;
+}*/
+
+#team {
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 570px;
+	display: block;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center top;
+}
+
+.logo {
+	position: relative;
+}
+.mar50 {
+	margin-top: 50px;
+}
+
+.team .overlay {
+	background-color: rgba(15, 155, 224, 0.78);
+	padding: 70px 0 40px;
+	height: 100%;
+}
+
+.sec-title h2.team-title {
+	color: #fff;
+}
+
+.sec-title h2.team-title:after {
+	border: 1px solid #FFFFFF;
+}
+.team {
+	position: relative;
+}
+.team-intro-tab {
+	position: absolute;
+	bottom: 40px;
+	color: #fff;
+	font-size: 36px;
+	cursor: pointer;
+}
+.f-left {
+	left: 30%;
+}
+.f-right {
+	right: 30%;
+}
+.team-intro {
+	color: #FFFFFF;
+	line-height: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	position: relative;
+}
+.team-intro-content{
+	width: 70%;
+	position: absolute;
+	-webkit-transform: translate(-50%, 0);
+	-moz-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+	left: 50%;
+	display: none;
+}
+.team-intro-content:nth-child(1) {
+	display: block;
+}
+.team-intro img {
+	border: 3px solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	height: auto;
+	max-width: 110px;
+}
+
+.contact {
+	color: #818181;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 24px;
+	font-size: 16px;
+	margin: 30px 0 75px 0;
+}
+
+.contact h2 {
+	border-bottom: 1px solid #009EE3;
+	height: 44px;
+	color: #252525;
+	font-weight: bold;
+}
+
+.contact p {
+	line-height: 30px;
+	margin: 0;
+}
+
+.contact span {
+	display: block;
+}
+
+.contact p.mar {
+	margin-top: 30px;
+}
+
+#footer {
+	background-color: #2E2E2E;
+	padding: 50px 0;
+	color: #fff;
+}
+
+#navbarbar {
+	position: relative;
+}
